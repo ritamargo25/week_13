@@ -1,29 +1,29 @@
-function sum(a, b) {
+function sum() {
     let a = prompt('Введи первое число');
     let b = prompt('Введи второе число');
-    let result = (a + b);
+    let result = (Number(a) + Number(b));
     alert(result);
 }
 
 
-function minus(a, b) {
+function minus() {
     let a = prompt('Введи первое число');
     let b = prompt('Введи второе число');
-    let result = (a - b);
+    let result = (Number(a) - Number(b));
     alert(result);
 }
 
-function multiply(a, b) {
+function multiply() {
     let a = prompt('Введи первое число');
     let b = prompt('Введи второе число');
-    let result = (a * b);
+    let result = (Number(a) * Number(b));
     alert(result);
 }
 
-function divide(a, b) {
+function divide() {
     let a = prompt('Введи первое число');
     let b = prompt('Введи второе число');
-    let result = (a / b);
+    let result = (Number(a) / Number(b));
     alert(result);
 }
 
